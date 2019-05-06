@@ -1,3 +1,6 @@
 > beer_reviews <- read.csv("~/Downloads/beer_reviews/beer_reviews.csv")
 >   View(beer_reviews)
 > summary(beer_reviews)
+> ggplot(beer_reviews) + aes(x = beer_abv) + geom_bar()
+> qplot(review_overall, data = beer_reviews)
+> qplot(review_overall, data = beer_reviews, geom = "density")
