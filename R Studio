@@ -4,3 +4,4 @@
 > ggplot(beer_reviews) + aes(x = beer_abv) + geom_bar()
 > qplot(review_overall, data = beer_reviews)
 > qplot(review_overall, data = beer_reviews, geom = "density")
+> ggplot(beer_reviews,aes(x=beer_style))+geom_bar()
